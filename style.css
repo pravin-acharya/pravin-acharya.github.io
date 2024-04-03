@@ -1,47 +1,50 @@
+.attractive {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  opacity: 0.6;
+}
 
-      .attractive{
-        background-image: url("back.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        color: aliceblue ;
-        opacity: 1;
+.image {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.6;
+}
 
-      }
-      .image{
-        display:block;
-        margin: 0 auto;
-        opacity: 0.6;
-      }
-     section{
-      display:flex; 
-      justify-content: center;
-      align-items: center;
-      height:100vh;
-     }
-  
-     .goals{ /* it will only change img not text */
-      content:"";
-      display:flex; 
-      background-image: url("goal.jpg");
-      background-attachment: fixed;
-      
-    }
-    .pra{
-      flex-basis: 30%;
-      opacity:10;
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    }
-    .contact{
-      display:flex; 
-      background-image: url("contact.jpeg");
-      background-attachment: fixed;
-    
-    }
-    .me{
-      display:flex; 
-      justify-content: center;
-      align-items: center;
-      animation: alternate;
-      font-style: oblique;
-      opacity:0.6;
-    }
+.goals {
+  /* it will only change img not text */
+  content: "";
+  display: flex;
+  background-image: url("goal.jpg");
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+
+.pra {
+  flex-basis: 30%;
+  opacity: 0.6;
+}
+
+.contact {
+  display: flex;
+  background-image: url("contact.jpeg");
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: alternate;
+  font-style: oblique;
+  opacity: 0.6;
+}
