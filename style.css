@@ -18,7 +18,7 @@
       height:100vh;
      }
   
-     .goals{ /* it will only change img not text */
+     .goals{ 
       content:"";
       display:flex; 
       background-image: url("goal.jpg");
